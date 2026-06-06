@@ -45,25 +45,6 @@ liga_betplay_amigo/
 │
 └── README.md
 ```
-
----
-
-## ✅ Requisitos
-
-- Python 3.8 o superior
-- Sin librerías externas
-
----
-
-## ▶️ Ejecución
-
-```bash
-cd liga_betplay_amigo
-python main.py
-```
-
----
-
 ## 🔄 Diferencias de Lógica con la Versión Original
 
 | Aspecto | Tu versión | Esta versión |
@@ -95,28 +76,3 @@ python main.py
 | 0 | Salir | - |
 
 ---
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Python 3** — lenguaje principal
-- **Librería estándar** — `os`, `json`
-
----
-
-## 👤 Autor
-
-Material de práctica para estudiantes en formación.
-
----
-
-## 📚 Conclusiones
-
-Esta versión demuestra que **el mismo problema se puede resolver con otra mentalidad**:
-
-- **`sorted()` con `lambda`** es más limpio y rápido que el burbuja manual.
-- Las **jornadas** organizan mejor los partidos que fechas aisladas.
-- Un **solo JSON** con todo el estado es más simple de respaldar.
-- Reportes como **goleadores** y **forma reciente** agregan valor sin complicar la base.
-- **Funciones molde** (`nuevo_equipo`, `nuevo_partido`) evitan repetir estructuras.
-
-La POO no es obligatoria: con diccionarios bien organizados se logran sistemas claros, modulares y persistentes.
